@@ -124,7 +124,7 @@ const Pricing = () => {
             <div key={idx}
               className="bg-white px-6 py-8 rounded-xl w-full mx-auto grid place-items-center shadow-2xl">
               <img src={item.src} alt="" className="h-40 mb-8" />
-              <div className="text-4xl text-white text-center py-4 font-bold bg-[#2b3436] shadow-xl py-4 px-8 rounded-full">{item.title}</div>
+              <div className="text-4xl text-white text-center py-4 font-bold bg-[#2b3436] shadow-xl px-8 rounded-full">{item.title}</div>
               <p className="lg:text text-center text-xl px-6 pb-6 pt-8 text-slate-500 font-bold sub-t">
                 {item.subtitle}
               </p>
